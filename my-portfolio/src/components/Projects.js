@@ -15,6 +15,7 @@ export default function Projects() {
             </div>
             <div>
               {projects.map((project) => (
+                <div>
                 <a
                   href={project.link}
                   key={project.image}>
@@ -23,14 +24,16 @@ export default function Projects() {
                       alt="gallery"
                       src={project.image}
                     />
-                    <div>
-                      <h1 >
+                    <h2 >
                         {project.title}
-                      </h1>
-                      <p >{project.description}</p>
-                    </div>
+                      </h2>
                   </div>
                 </a>
+                <div>
+                      
+                      <p >{project.description}</p>
+                    </div>
+                </div>
               ))}
             </div>
           </div>

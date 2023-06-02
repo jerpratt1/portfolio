@@ -3,23 +3,9 @@ export default function About() {
     <section id="about">
       <div>
         <div>
-          <h1>
-            Hi, I'm Jeremy.
-            <br />I am a Junior Software Developer.
-          </h1>
-          <p>
-            description of Me
-          </p>
-          <div>
-            <a
-              href="#contact">
-              Work With Me
-            </a>
-            <a
-              href="#projects">
-              See My Past Work
-            </a>
-          </div>
+          <h1>Hi, I'm Jeremy.</h1>
+          <h2>I am a Junior Software Developer.</h2>
+          <p> description of Me </p>
         </div>
         <div >
           <img

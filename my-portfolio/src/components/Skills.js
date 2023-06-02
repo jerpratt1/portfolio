@@ -14,12 +14,12 @@ export default function Skills() {
             Put what I have learned and my tech stack here
           </p>
         </div>
-        <div >
+        <div id="skill_container">
           {skills.map((skill) => (
             <div key={skill} >
               <div>
 
-                <span >
+                <span id="skill">
                   {skill}
                 </span>
               </div>

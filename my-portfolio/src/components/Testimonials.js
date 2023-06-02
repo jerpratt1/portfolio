@@ -5,16 +5,14 @@ export default function Testimonials() {
   return (
     <section id="testimonials">
       <div >
-{/*         
- */}        <h1 >
+       <h1 >
           Client Testimonials
         </h1>
         <div >
           {testimonials.map((testimonial) => (
             <div >
               <div >
-{/*                 
- */}                <p >{testimonial.quote}</p>
+              <p >{testimonial.quote}</p>
                 <div >
                   <img
                     alt="testimonial"
