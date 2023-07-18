@@ -13,7 +13,8 @@
         <input type="email" name="user_email" id="email">
         <label>Message: </label>
         <input type="text" name="message" id="message">
-        <input type="submit" value="Send">
+        <!-- <input type="submit" value="Send"> -->
+        <v-btn elevation="3" rounded small @click="sendEmail">submit</v-btn>
       </form>
     </div>
   </div>

@@ -2,7 +2,7 @@
   <div>
     <h1>Skills</h1>
     <ul>
-      <li v-for="skill in this.$store.state.skills" v-bind:key="skill.id"> {{skill}} </li>
+      <li v-for="skill in this.$store.state.skills" v-bind:key="skill.id"> {{skill}}, </li>
     </ul>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>This is the projects</h1>
+    <h1>Projects</h1>
     <div v-for="project in this.$store.state.projects" v-bind:key="project.id">
         <a :href="project.link" target="_blank">{{project.title}}</a>
         <img :src="project.image" :alt="project.alt">

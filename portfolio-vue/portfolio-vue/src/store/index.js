@@ -10,6 +10,7 @@ const store = new Vuex.Store({
   modules: {
   },
   state: {
+    bio: ["Full Stack Developer", "Advocate for Others", "Film Enthusiast"],
     projects: [
       {
         title: "Chat-Bot",
