@@ -7,12 +7,12 @@
       <a href="#contact-form">Contact </a> 
     </nav>
 
-    <v-main>
+    <v-main id="main">
       
-    <bio-section />
-    <skills-section />
-    <project-section />
-    <contact-form />
+    <bio-section id="bio" />
+    <skills-section id="skills" />
+    <project-section id="projects" />
+    <contact-form id="contact" />
     </v-main>
   </v-app>
 </template>
@@ -46,5 +46,32 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#main{
+  display: grid;
+  grid-template-areas:
+  ". skills skills"
+  ". skills skills"
+  "projects projects projects"
+  "contact contact contact"
+  
+  ;
+}
+
+#bio{
+  grid-area: bio;
+}
+
+#skills{
+  grid-area: skills;
+}
+
+#projects{
+  grid-area: projects;
+}
+
+#contact{
+  grid-area: contact;
 }
 </style>
