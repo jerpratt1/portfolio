@@ -3,7 +3,8 @@
     <h1>Contact</h1>
     <a href="https://www.linkedin.com/in/jeremy-pratt/" target="_blank" >LinkedIn</a>
     <br>
-    <a href="public\Jeremy_Pratt_Resume_PDF.pdf" download>Resume</a>
+    <a href="https://pdfhost.io/v/ecpUMpRXS_Resume_2023" target="_blank" >Resume</a>
+    <!-- <iframe src="JEREMY_PRATT_RESUME_PDF.pdf" frameborder="0"></iframe> -->
     <p>You can also reach me via email by the form below:</p>
     <div class="contact-form">
       <form ref="form" @submit.prevent="sendEmail">

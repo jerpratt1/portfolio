@@ -61,17 +61,21 @@ export default {
 
 #bio{
   grid-area: bio;
+  height: 100vh;
 }
 
 #skills{
   grid-area: skills;
+  height: 100vh;
 }
 
 #projects{
   grid-area: projects;
+  height: 100vh;
 }
 
 #contact{
   grid-area: contact;
+  height: 100vh;
 }
 </style>
