@@ -9,7 +9,7 @@
       </ul>
       <ul id="projects">
         <li><h2>Projects</h2></li>
-        <li>Project name 1</li>
+        <li><router-link to="/project">project 1</router-link> </li>
         <li>Project name 2</li>
       </ul>
       <router-view id="box"/>
@@ -23,7 +23,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: gray;
+  color: lightgray;
 }
 
 body{
@@ -74,5 +74,14 @@ body{
 ul{
   display: block;
   list-style: none;
+}
+
+a{
+  color: lightgray;
+  text-decoration: none;
+}
+
+a:active{
+color: blue;
 }
 </style>
