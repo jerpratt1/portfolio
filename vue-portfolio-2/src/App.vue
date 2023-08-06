@@ -19,8 +19,8 @@
       </ul>
       <ul id="projects">
         <li><h2>Projects</h2></li>
-        <li><router-link to="/chatbot">ChatTEr-Bot</router-link> </li>
-        <li>Project name 2</li>
+        <li><router-link to="/chatbot">ChatTEr-Bot</router-link></li>
+        <li><router-link to="/clubs">Clubs Trump</router-link></li>
       </ul>
       <router-view id="box"/>
     </div>

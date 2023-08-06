@@ -7,7 +7,7 @@
 <!--         <img id="chat-image" src="https://i.imgur.com/5kluCNX.jpg" alt="ChatTEr-Bot">
  -->        <p id="chat-role">Role: Full Stack Development</p>
         <p id="chat-tools">Tools Utilized: Java, JavaScript, HTML, CSS, Vue.JS, RESTful API, Spring , IntelliJ IDEA, Git Bash, Postman, PostgreSQL </p>
-        <button id="chat-link"><a href="https://techatterbot.com">Check It Out</a></button>
+        <button id="chat-link"><a target="blank_" href="https://techatterbot.com">Check It Out</a></button>
     </div>
   </div>
 </template>

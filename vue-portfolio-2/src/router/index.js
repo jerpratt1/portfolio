@@ -5,6 +5,7 @@ import AboutView from '../views/AboutView.vue'
 import ProjectView from '../views/ProjectView.vue'
 import ContactView from '../views/ContactView.vue'
 import ChatBot from '../views/ChatBot.vue'
+import ClubsTrump from '../views/ClubsTrump.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path:'/chatbot',
     name: 'chatbot',
     component: ChatBot
+  },
+  {
+    path:'/clubs',
+    name: 'clubs',
+    component: ClubsTrump
   },
 ]
 
