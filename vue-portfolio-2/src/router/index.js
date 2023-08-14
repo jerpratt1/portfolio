@@ -7,6 +7,7 @@ import ContactView from '../views/ContactView.vue'
 import ChatBot from '../views/ChatBot.vue'
 import ClubsTrump from '../views/ClubsTrump.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -40,6 +41,8 @@ const routes = [
     name: 'clubs',
     component: ClubsTrump
   },
+  
+
 ]
 
 const router = new VueRouter({
